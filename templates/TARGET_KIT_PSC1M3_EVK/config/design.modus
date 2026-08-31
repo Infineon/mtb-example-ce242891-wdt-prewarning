@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration app="BACKEND" formatVersion="15" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.80.0" toolsPackage="ModusToolbox 3.8.0" xmlns="http://cypress.com/xsd/cydesignfile_v7">
+    <Devices>
+        <Device mpn="PSC1M3FBLGQ0AT">
+            <BlockConfig>
+                <Block location="ioss[0].port[0].pin[8]">
+                    <Aliases>
+                        <Alias value="CYBSP_RTC_XTAL1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[9]">
+                    <Aliases>
+                        <Alias value="CYBSP_RTC_XTAL2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[10]">
+                    <Aliases>
+                        <Alias value="CYBSP_XTAL1"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[11]">
+                    <Aliases>
+                        <Alias value="CYBSP_XTAL2"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[14]">
+                    <Aliases>
+                        <Alias value="CYBSP_SWDIO"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[0].pin[15]">
+                    <Aliases>
+                        <Alias value="CYBSP_SWDCK"/>
+                    </Aliases>
+                </Block>
+                <Block location="ioss[0].port[2].pin[5]">
+                    <Aliases>
+                        <Alias value="CYBSP_POT"/>
+                    </Aliases>
+                </Block>
+                <Personality template="psc1_pin" version="1.0" instance="8aHVn_IxYu8">
+                    <Block location="ioss[0].port[1].pin[2]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART_TX"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_strength" value="CY_GPIO_OUTPUT_STRENGTH_NONE"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="UBhGMPZQmDs">
+                    <Block location="ioss[0].port[1].pin[3]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART_RX"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_strength" value="CY_GPIO_OUTPUT_STRENGTH_NONE"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="jnicT-9uHM8">
+                    <Block location="ioss[0].port[4].pin[4]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED"/>
+                            <Alias value="CYBSP_USER_LED1"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_strength" value="CY_GPIO_OUTPUT_STRENGTH_NONE"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="Kycj5vZEwiw">
+                    <Block location="ioss[0].port[4].pin[5]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED2"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_strength" value="CY_GPIO_OUTPUT_STRENGTH_NONE"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="BPPTzwV170U">
+                    <Block location="ioss[0].port[4].pin[6]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED3"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_strength" value="CY_GPIO_OUTPUT_STRENGTH_NONE"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_pin" version="1.0" instance="kyE7Ufptm6M">
+                    <Block location="ioss[0].port[4].pin[7]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_LED4"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="input_hysteresis" value="CY_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="input_mode" value="CY_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="io_function" value="CY_GPIO_INPUT_OUTPUT"/>
+                        <Param id="output_level" value="CY_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_mode" value="CY_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_strength" value="CY_GPIO_OUTPUT_STRENGTH_NONE"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_clocks" version="1.0" instance="pzZx830JunE">
+                    <Block location="scu[0].clock[0]" locked="true"/>
+                </Personality>
+                <Personality template="psc1_pclk" version="1.0" instance="NmC8_jH0-As">
+                    <Block location="scu[0].clock[0].ccuclk[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="pclk_src" value="CY_SCU_CLOCK_PCLKSRC_DOUBLE_MCLK"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_dco1" version="1.0" instance="duxB3H8d0xQ">
+                    <Block location="scu[0].clock[0].dco1[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="accuracy" value="4"/>
+                        <Param id="calibration_enable" value="false"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_dco2" version="1.0" instance="n3p0DzXYUtU">
+                    <Block location="scu[0].clock[0].dco2[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="accuracy" value="4"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_fdivclk" version="1.0" instance="uKC0OkkLR_A">
+                    <Block location="scu[0].clock[0].fdivclk[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="configuration" value="auto"/>
+                        <Param id="dclk_src" value="CY_SCU_CLOCK_DCLKSRC_DCO1"/>
+                        <Param id="fdiv_frequency" value="96.000"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_mclk" version="1.0" instance="Ntm42X2E9G4">
+                    <Block location="scu[0].clock[0].periclk[0]" locked="true"/>
+                </Personality>
+                <Personality template="psc1_rtcclk" version="1.0" instance="SNrMPJXJSTA">
+                    <Block location="scu[0].clock[0].rtcclk[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="rtc_src" value="CY_SCU_CLOCK_RTCCLKSRC_DCO2"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_intcr" version="1.0" instance="X-I24ERvqfY">
+                    <Block location="scu[0].intcr[0]" locked="true"/>
+                    <Parameters>
+                        <Param id="intsel0" value="NC"/>
+                        <Param id="intsel1" value="NC"/>
+                        <Param id="intsel10" value="NC"/>
+                        <Param id="intsel11" value="NC"/>
+                        <Param id="intsel12" value="NC"/>
+                        <Param id="intsel13" value="NC"/>
+                        <Param id="intsel14" value="NC"/>
+                        <Param id="intsel15" value="NC"/>
+                        <Param id="intsel16" value="NC"/>
+                        <Param id="intsel17" value="NC"/>
+                        <Param id="intsel18" value="NC"/>
+                        <Param id="intsel19" value="NC"/>
+                        <Param id="intsel2" value="NC"/>
+                        <Param id="intsel20" value="NC"/>
+                        <Param id="intsel21" value="CY_SCU_IRQCTRL_USIC0_SR0_IRQ21"/>
+                        <Param id="intsel22" value="NC"/>
+                        <Param id="intsel23" value="NC"/>
+                        <Param id="intsel24" value="NC"/>
+                        <Param id="intsel25" value="NC"/>
+                        <Param id="intsel26" value="NC"/>
+                        <Param id="intsel27" value="NC"/>
+                        <Param id="intsel28" value="NC"/>
+                        <Param id="intsel29" value="NC"/>
+                        <Param id="intsel3" value="NC"/>
+                        <Param id="intsel30" value="NC"/>
+                        <Param id="intsel31" value="NC"/>
+                        <Param id="intsel4" value="NC"/>
+                        <Param id="intsel5" value="NC"/>
+                        <Param id="intsel6" value="NC"/>
+                        <Param id="intsel7" value="NC"/>
+                        <Param id="intsel8" value="NC"/>
+                        <Param id="intsel9" value="NC"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_uart" version="1.0" instance="bbWue4OdY4A">
+                    <Block location="usic[0].ch[1]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_DEBUG_UART"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="AlternativeInterrupt" value="false"/>
+                        <Param id="AlternativeInterruptSRSel" value="0"/>
+                        <Param id="BaudRate" value="115200"/>
+                        <Param id="BaudRateGeneratorClockSrc" value="CY_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER"/>
+                        <Param id="ClockDividerMode" value="CY_USIC_CH_BRG_CLOCK_DIVIDER_MODE_FRACTIONAL"/>
+                        <Param id="CollisionDetectionEvent" value="false"/>
+                        <Param id="DataBits" value="8"/>
+                        <Param id="DataCollisionEnabled" value="false"/>
+                        <Param id="DataLostInterrupt" value="false"/>
+                        <Param id="ExternalClockEdge" value="CY_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE"/>
+                        <Param id="FormatErrorEvent" value="false"/>
+                        <Param id="FrameLength" value="8"/>
+                        <Param id="HwTransferGatingEnabled" value="false"/>
+                        <Param id="HwTransferGatingLogic" value="CY_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0"/>
+                        <Param id="HwTransferTriggerEdge" value="CY_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE"/>
+                        <Param id="HwTransferTriggerEnabled" value="false"/>
+                        <Param id="Oversampling" value="16"/>
+                        <Param id="ParityMode" value="CY_USIC_CH_PARITY_MODE_NONE"/>
+                        <Param id="ProtocolEventSRSel" value="0"/>
+                        <Param id="ReceiveBufferErrorEvent" value="false"/>
+                        <Param id="ReceiveBufferErrorEventSRSel" value="0"/>
+                        <Param id="ReceiverFrameFinishedEvent" value="false"/>
+                        <Param id="ReceiverInterrupt" value="true"/>
+                        <Param id="ReceiverInterruptSRSel" value="0"/>
+                        <Param id="ReceiverNoiseDetectionEvent" value="false"/>
+                        <Param id="ReceiverStartInterrupt" value="false"/>
+                        <Param id="RxFIFOPointer" value="0"/>
+                        <Param id="RxFIFOSize" value="CY_USIC_CH_FIFO_DISABLED"/>
+                        <Param id="SamplePoint" value="8"/>
+                        <Param id="ShowSystemRelatedConnections" value="false"/>
+                        <Param id="StandardReceiveBufferEvent" value="false"/>
+                        <Param id="StandardReceiveBufferEventSRSel" value="0"/>
+                        <Param id="StandardTransmitBufferEvent" value="false"/>
+                        <Param id="StandardTransmitBufferEventSRSel" value="0"/>
+                        <Param id="StartAfterInit" value="true"/>
+                        <Param id="StopBits" value="1"/>
+                        <Param id="SynchronizationBreakDetectionEvent" value="false"/>
+                        <Param id="TimeMeasurementEnabled" value="false"/>
+                        <Param id="TransmitBufferErrorEvent" value="false"/>
+                        <Param id="TransmitBufferErrorEventSRSel" value="0"/>
+                        <Param id="TransmitBufferInterrupt" value="false"/>
+                        <Param id="TransmitBufferInterruptSRSel" value="0"/>
+                        <Param id="TransmitShiftInterrupt" value="false"/>
+                        <Param id="TransmitShiftInterruptSRSel" value="0"/>
+                        <Param id="TransmitterFrameFinishedEvent" value="false"/>
+                        <Param id="TxFIFOPointer" value="0"/>
+                        <Param id="TxFIFOSize" value="CY_USIC_CH_FIFO_DISABLED"/>
+                        <Param id="configuration" value="auto"/>
+                        <Param id="inFlash" value="true"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="psc1_wdt" version="1.0" instance="JMuot9ztIl0">
+                    <Block location="wdt[0]" locked="true">
+                        <Aliases>
+                            <Alias value="WDT_0"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="desired_ms_wlb" value="30000.00"/>
+                        <Param id="desired_ms_wub" value="35000.00"/>
+                        <Param id="enable_pwa" value="true"/>
+                        <Param id="event_handler_pwa" value="Watchdog_Handler"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="runInDebug" value="false"/>
+                        <Param id="start_after_init" value="false"/>
+                        <Param id="width_sip" value="255"/>
+                    </Parameters>
+                </Personality>
+            </BlockConfig>
+            <Netlist>
+                <Net>
+                    <Port name="ioss[0].port[1].pin[2].digital_out[0]"/>
+                    <Port name="usic[0].ch[1].dout0[0]"/>
+                </Net>
+                <Net>
+                    <Port name="ioss[0].port[1].pin[3].digital_in[0]"/>
+                    <Port name="usic[0].ch[1].dx0[0]"/>
+                </Net>
+            </Netlist>
+        </Device>
+    </Devices>
+</Configuration>
